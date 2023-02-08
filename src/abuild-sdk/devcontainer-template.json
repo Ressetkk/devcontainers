@@ -1,0 +1,23 @@
+{
+    "id": "abuild-sdk",
+    "version": "0.0.1",
+    "name": "Abuild SDK",
+    "description": "Simple Alpine container with Git installed.",
+    "documentationURL": "https://github.com/Ressetkk/devcontainers/tree/main/src/abuild-sdk",
+    "publisher": "Dev Container Spec Maintainers",
+    "licenseURL": "https://github.com/Ressetkk/devcontainers/blob/main/LICENSE",
+    "options": {
+        "platform": {
+            "type": "string",
+            "description": "Platform to spawn",
+            "proposals": [
+                "amd64",
+                "arm64"
+            ],
+            "default": "amd64"
+        }
+    },
+    "platforms": [
+        "Any"
+    ]
+}
